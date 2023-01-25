@@ -4,12 +4,14 @@ public class ListExercises {
 
     /** Returns the total sum in a list of integers */
 	public static int sum(List<Integer> L) {
-        int sum = 0;
-        for (int i : L) {
-            sum = sum + i;
-            return sum;
+        if (list.isEmpty()) {
+            return 0;
+        } else{
+            int sum = 0;
+            for (int i : L) {
+                sum = sum + i;
         }
-        return 0;
+            return sum;
     }
 
 
