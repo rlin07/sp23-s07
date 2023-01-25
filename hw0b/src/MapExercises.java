@@ -1,5 +1,7 @@
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
+
 
 public class MapExercises {
     /** Returns a map from every lower case letter to the number corresponding to that letter, where 'a' is
