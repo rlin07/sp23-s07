@@ -4,7 +4,7 @@ public class ListExercises {
 
     /** Returns the total sum in a list of integers */
 	public static int sum(List<Integer> L) {
-        if (list.isEmpty()) {
+        if (L.isEmpty()) {
             return 0;
         } else{
             int sum = 0;
