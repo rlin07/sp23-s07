@@ -17,16 +17,16 @@ public class ListExercises {
 
     /** Returns a list containing the even numbers of the given list */
     public static List<Integer> evens(List<Integer> L) {
-        for (int i=1; i<=L;i++){
-        if (i%2==0){
-            return i;
-        }else{
-            return null;
-    }
+            for (int i = 1; i <= L; i++) {
+                if (i % 2 == 0) {
+                    return i;
+                } else return null;
+            }
+        }
 
     /** Returns a list containing the common item of the two given lists */
     public static List<Integer> common(List<Integer> L1, List<Integer> L2) {
-        if L1.retainAll(L2).size()<L1.size() {
+        if (L1.retainAll(L2).size()<L1.size()) {
             return L1.retainAll(L2);
         }else{
         return null;
@@ -35,14 +35,5 @@ public class ListExercises {
 
     /** Returns the number of occurrences of the given character in a list of strings. */
     public static int countOccurrencesOfC(List<String> words, char c) {
-        int c=0;
-        int d=0;
-
-        if (d==str.length())
-            return 0;
-
-        if (words.charAt(d))
-                }
-        return c+count0occurrencesOfC(words,c)
+    return 0;
     }
-}

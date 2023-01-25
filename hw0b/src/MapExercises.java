@@ -25,21 +25,13 @@ public class MapExercises {
             return null;
         }
 
-        /** Returns a map of the counts of all words that appear in a list of words. */
-        public static Map<String, Integer> collectWordCount(List<String> words, List<String> targets) {
-            for
-        }
-        return null;
-    }
-}
 
     /** Returns a map of the counts of all words that appear in a list of words. */
     public static Map<String, Integer> countWords(List<String> words) {
-        for (String s:list)
-        {Integer count=frequencyMap.get(s);
-            if (count==null){
-                count=0;
-            }
-        return null;
+        if (String.isEmpty()) {
+            return null;
+        }else{
+
+        }
     }
 }
